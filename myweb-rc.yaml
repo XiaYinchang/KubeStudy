@@ -10,9 +10,9 @@ spec:
     metadata:
       labels:
         app: myweb
-      spec:
-        containers:
-          - name: myweb
-            image: kubeguide/tomcat-app:v1
-            ports:
-            - containerPort: 8080
+    spec:
+      containers:
+        - name: myweb
+          image: kubeguide/tomcat-app:v1
+          ports:
+          - containerPort: 8080
